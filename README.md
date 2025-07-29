@@ -125,5 +125,25 @@ En Wireshark deberían ver:
 <img width="921" height="342" alt="image" src="https://github.com/user-attachments/assets/4f5f3c44-5023-47f1-86c1-1d3b9f56552c" />
 
 
-<img width="921" height="469" alt="image" src="https://github.com/user-attachments/assets/7b36db68-204f-49dd-8017-a6d263ef928d" />
+
+
+
+### Burp Suite
+
+
+
+<img width="891" height="466" alt="image" src="https://github.com/user-attachments/assets/8f66134e-3ea8-487b-8ef2-cdfe83ce480f" />
+
+
+
+
+<img width="921" height="486" alt="image" src="https://github.com/user-attachments/assets/41ab4eb5-0b93-46b5-89fb-0e202cc69a96" />
+
+
+
+
+############################################################################
+
+
+
 
