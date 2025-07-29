@@ -1,5 +1,58 @@
 # HACKIN ETICO
-##T1_Reconocimiento Activo
+
+##ACTIVIDADES
+
+Formato de Auditoría OSINT: Reconocimiento Pasivo de Dominio
+Introducción
+Objetivo: Realizar un reconocimiento pasivo completo de un dominio utilizando dnsdumpster.com, centrolops.net, FOCA, Shodan, Google Dorks y otras herramientas de OSINT.
+Llena cada sección con la información obtenida durante la actividad.
+1. Mapeo DNS y Subdominios
+Dominio objetivo: siienet.utn.edu.mx
+Fecha de análisis: 5 Junio 2025
+
+
+1.1 Subdominios encontrados:
+Subdominio	IP	TTL	Ubicación geográfica
+siienet.utn.edu.mx	192.100.188.37	604800	Mexico
+utn.edomex.gob.mx	201.131.40.32	604800	Mexico
+
+
+
+
+1.2 Name Servers (NS):
+ - ometeotl.utn.edu.mx
+ - tlatoani.utn.edu.mx
+1.3 Registros MX (servidores de correo):
+ utn-edu-mx.mail.protection.outlook.com
+1.4 Registros TXT (SPF, DMARC, etc.):
+
+
+
+<img width="900" height="421" alt="image" src="https://github.com/user-attachments/assets/ee9f2081-dc6f-4431-ac50-fb6eecbeae40" />
+
+
+   <img width="900" height="370" alt="image" src="https://github.com/user-attachments/assets/e919b872-d5e6-445d-95dc-14161a6b954a" />
+
+
+<img width="900" height="457" alt="image" src="https://github.com/user-attachments/assets/ec862d15-3cee-4833-8bff-6e3155fde4ea" />
+
+
+
+Recoleccion de datos desde FOCA
+<img width="900" height="499" alt="image" src="https://github.com/user-attachments/assets/e8904532-ae26-4f9f-bd59-d435cd8ab4af" />
+
+
+
+<img width="900" height="493" alt="image" src="https://github.com/user-attachments/assets/e5bb6c7c-276f-4907-a78a-ee115bbf1641" />
+
+
+
+##################################################################################################
+
+
+
+
+## T1_Reconocimiento Activo
 
 Manejo de Wireshark para visualizar
 
@@ -28,7 +81,7 @@ Comandos utilizados para la practica:
 
 
 
-##T2_ Escaneo de host en la misma red.
+## T2_ Escaneo de host en la misma red.
 
 Escoge un host dentro de tu red y realiza un escaneo que utilice técnicas de evasión para evitar su detección por firewalls o sistemas de monitoreo. Evalúa si lograste obtener información sin generar tráfico evidente. 
 
@@ -46,7 +99,7 @@ En Wireshark deberían ver:
 
 
 
-##T3_ Enumeracion avanzada de servicios
+## T3_ Enumeracion avanzada de servicios
 
 Identifica un host dentro de tu red que tenga servicios web, FTP, o SSH, y utiliza técnicas avanzadas para obtener información detallada de esos servicios (como banners, versiones, métodos HTTP, etc.). 
 En Wireshark deberían ver: 
